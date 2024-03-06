@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\bin\Debug\net8.0\2CzescZajec.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\bin\Debug\net8.0\2CzescZajec.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\bin\Debug\net8.0\2CzescZajec.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\bin\Debug\net8.0\2CzescZajec.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\bin\Debug\net8.0\2CzescZajec.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\refint\2CzescZajec.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\2CzescZajec.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zajecia06.03.24\2CzescZajec\obj\Debug\net8.0\ref\2CzescZajec.dll
