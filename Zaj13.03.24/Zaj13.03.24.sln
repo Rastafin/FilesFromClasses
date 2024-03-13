@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Zaj13.03.24\Singleton.csproj", "{4C89141C-CBBB-48A7-A8EB-75C4FEA153A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternlmp", "SingletonPatternlmp\SingletonPatternlmp.csproj", "{4F465045-201A-4AAD-8138-820EC0FFA0BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C89141C-CBBB-48A7-A8EB-75C4FEA153A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C89141C-CBBB-48A7-A8EB-75C4FEA153A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C89141C-CBBB-48A7-A8EB-75C4FEA153A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C89141C-CBBB-48A7-A8EB-75C4FEA153A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F465045-201A-4AAD-8138-820EC0FFA0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F465045-201A-4AAD-8138-820EC0FFA0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F465045-201A-4AAD-8138-820EC0FFA0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F465045-201A-4AAD-8138-820EC0FFA0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A19A4D8-7CCB-47CB-8F02-9721E6EE470A}
+	EndGlobalSection
+EndGlobal

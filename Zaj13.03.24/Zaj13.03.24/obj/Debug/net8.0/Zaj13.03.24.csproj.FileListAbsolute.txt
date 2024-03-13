@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Zaj13.03.24.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Zaj13.03.24.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Zaj13.03.24.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Zaj13.03.24.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Zaj13.03.24.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\refint\Zaj13.03.24.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Zaj13.03.24.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\ref\Zaj13.03.24.dll

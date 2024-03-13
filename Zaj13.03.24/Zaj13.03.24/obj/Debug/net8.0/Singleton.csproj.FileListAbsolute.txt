@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Singleton.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Singleton.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Singleton.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Singleton.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\bin\Debug\net8.0\Singleton.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\refint\Singleton.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\Singleton.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Zaj13.03.24\Zaj13.03.24\obj\Debug\net8.0\ref\Singleton.dll
