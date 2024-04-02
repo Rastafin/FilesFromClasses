@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Zaj20._03._24
 {
-    internal class Client
+    internal class Client : IClientBook
     {
         public int Id { get; set; }
-        public required string Name { get; set; }
-        public required string SecondName { get; set; }
+        public string Name { get; set; }
+        public string SecondName { get; set; }
 
         public bool CreditHistory { get; set; }
         public int Earnings { get; set; }
@@ -42,7 +42,7 @@ namespace Zaj20._03._24
                 && EarningsBook.IsValid()
                 && SavingsBook.IsValid();
 
-            Console.WriteLine("Ocena ogolna - {0}", valid);
+            Console.WriteLine("\nOcena ogolna - {0}", valid);
 
             return valid;
         }

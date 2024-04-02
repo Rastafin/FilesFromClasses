@@ -8,11 +8,17 @@
 
             Console.WriteLine("Podaj zarobki");
 
-            int zarobki = int.Parse(Console.ReadLine());
+            client.Earnings = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Podaj kwote kredytu");
+
+            client.RequestAmount = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Podaj oszczednosci");
 
-            int oszczednosci = int.Parse(Console.ReadLine());
+            client.Savings = int.Parse(Console.ReadLine());
+
+            client.IsValid();
         }
     }
 }

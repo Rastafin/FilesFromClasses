@@ -1,0 +1,15 @@
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.GeneratedMSBuildEditorConfig.editorconfig
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.AssemblyInfoInputs.cache
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.AssemblyInfo.cs
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.csproj.CoreCompileInputs.cache
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.sourcelink.json
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\bin\Debug\net8.0\Zaj20.03.24.exe
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\bin\Debug\net8.0\Zaj20.03.24.deps.json
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\bin\Debug\net8.0\Zaj20.03.24.runtimeconfig.json
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\bin\Debug\net8.0\Zaj20.03.24.dll
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\bin\Debug\net8.0\Zaj20.03.24.pdb
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.dll
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\refint\Zaj20.03.24.dll
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.pdb
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\Zaj20.03.24.genruntimeconfig.cache
+C:\ForkRepo\FilesFromClasses\Zaj20.03.24\Zaj20.03.24\obj\Debug\net8.0\ref\Zaj20.03.24.dll

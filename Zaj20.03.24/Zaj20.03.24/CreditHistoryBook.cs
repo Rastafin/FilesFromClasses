@@ -14,7 +14,7 @@ namespace Zaj20._03._24
             Console.WriteLine("Sprawdzenie historii kredytowej dla klienta {0}" +
                 " - {1} {2}", _client.Id, _client.Name, _client.SecondName);
 
-            Console.WriteLine("Historia kredytowa - true");
+            Console.WriteLine("Historia kredytowa - True");
 
             return true;    
         }
