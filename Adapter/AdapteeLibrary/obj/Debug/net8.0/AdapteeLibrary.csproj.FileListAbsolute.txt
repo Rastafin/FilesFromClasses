@@ -1,0 +1,11 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\bin\Debug\net8.0\AdapteeLibrary.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\bin\Debug\net8.0\AdapteeLibrary.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\bin\Debug\net8.0\AdapteeLibrary.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\refint\AdapteeLibrary.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\AdapteeLibrary.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\AdapteeLibrary\obj\Debug\net8.0\ref\AdapteeLibrary.dll
