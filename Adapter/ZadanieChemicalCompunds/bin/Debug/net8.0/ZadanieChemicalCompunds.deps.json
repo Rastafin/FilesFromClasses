@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ZadanieChemicalCompunds/1.0.0": {
+        "dependencies": {
+          "ZadanieChemicalCompundsDatabase": "1.0.0"
+        },
+        "runtime": {
+          "ZadanieChemicalCompunds.dll": {}
+        }
+      },
+      "ZadanieChemicalCompundsDatabase/1.0.0": {
+        "runtime": {
+          "ZadanieChemicalCompundsDatabase.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZadanieChemicalCompunds/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZadanieChemicalCompundsDatabase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

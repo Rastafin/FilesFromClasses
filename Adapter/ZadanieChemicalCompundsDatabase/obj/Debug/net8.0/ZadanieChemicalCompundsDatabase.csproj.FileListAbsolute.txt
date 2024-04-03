@@ -1,0 +1,11 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\bin\Debug\net8.0\ZadanieChemicalCompundsDatabase.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\bin\Debug\net8.0\ZadanieChemicalCompundsDatabase.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\bin\Debug\net8.0\ZadanieChemicalCompundsDatabase.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\refint\ZadanieChemicalCompundsDatabase.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ZadanieChemicalCompundsDatabase.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Adapter\ZadanieChemicalCompundsDatabase\obj\Debug\net8.0\ref\ZadanieChemicalCompundsDatabase.dll
