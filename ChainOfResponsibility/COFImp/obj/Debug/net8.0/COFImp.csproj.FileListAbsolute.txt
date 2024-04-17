@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\bin\Debug\net8.0\COFImp.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\bin\Debug\net8.0\COFImp.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\bin\Debug\net8.0\COFImp.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\bin\Debug\net8.0\COFImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\bin\Debug\net8.0\COFImp.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\refint\COFImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\COFImp.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\ChainOfResponsibility\COFImp\obj\Debug\net8.0\ref\COFImp.dll
