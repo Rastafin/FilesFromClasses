@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\bin\Debug\net8.0\FactoryMethodImp.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\bin\Debug\net8.0\FactoryMethodImp.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\bin\Debug\net8.0\FactoryMethodImp.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\bin\Debug\net8.0\FactoryMethodImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\bin\Debug\net8.0\FactoryMethodImp.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\refint\FactoryMethodImp.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\FactoryMethodImp.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\FactoryMethodImp\obj\Debug\net8.0\ref\FactoryMethodImp.dll

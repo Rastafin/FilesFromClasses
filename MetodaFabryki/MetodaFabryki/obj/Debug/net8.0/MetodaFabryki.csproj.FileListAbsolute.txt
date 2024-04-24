@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\bin\Debug\net8.0\MetodaFabryki.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\bin\Debug\net8.0\MetodaFabryki.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\bin\Debug\net8.0\MetodaFabryki.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\bin\Debug\net8.0\MetodaFabryki.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\bin\Debug\net8.0\MetodaFabryki.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\refint\MetodaFabryki.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\MetodaFabryki.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MetodaFabryki\MetodaFabryki\obj\Debug\net8.0\ref\MetodaFabryki.dll
