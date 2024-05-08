@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\bin\Debug\net8.0\MVCPattern.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\bin\Debug\net8.0\MVCPattern.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\bin\Debug\net8.0\MVCPattern.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\bin\Debug\net8.0\MVCPattern.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\bin\Debug\net8.0\MVCPattern.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\refint\MVCPattern.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\MVCPattern.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\MVCPattern\MVCPattern\obj\Debug\net8.0\ref\MVCPattern.dll
