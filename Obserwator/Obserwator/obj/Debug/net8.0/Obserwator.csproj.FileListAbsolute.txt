@@ -1,0 +1,14 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\bin\Debug\net8.0\Obserwator.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\bin\Debug\net8.0\Obserwator.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\bin\Debug\net8.0\Obserwator.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\bin\Debug\net8.0\Obserwator.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\bin\Debug\net8.0\Obserwator.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\refint\Obserwator.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\Obserwator.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Obserwator\Obserwator\obj\Debug\net8.0\ref\Obserwator.dll
