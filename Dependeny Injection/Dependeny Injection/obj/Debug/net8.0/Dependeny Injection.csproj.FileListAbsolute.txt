@@ -1,0 +1,18 @@
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Dependeny Injection.exe
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Dependeny Injection.deps.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Dependeny Injection.runtimeconfig.json
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Dependeny Injection.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Dependeny Injection.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.csproj.AssemblyReference.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.AssemblyInfoInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.AssemblyInfo.cs
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.csproj.CoreCompileInputs.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependen.D8F7C1D4.Up2Date
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\refint\Dependeny Injection.dll
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.pdb
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\Dependeny Injection.genruntimeconfig.cache
+C:\Users\u107-10.ESWYPAKO\Desktop\Dependeny Injection\Dependeny Injection\obj\Debug\net8.0\ref\Dependeny Injection.dll

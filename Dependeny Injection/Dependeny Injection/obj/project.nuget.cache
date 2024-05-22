@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/bAwZAMXq6Eyby9vc2Nch6lIrXn69ic90XgQ1e05772Yvlx26RRZXGSs8M8JWTOvSfCWltEnDv0bb5EwUUPkKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\u107-10.ESWYPAKO\\Desktop\\Dependeny Injection\\Dependeny Injection\\Dependeny Injection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\u107-10.ESWYPAKO\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\u107-10.ESWYPAKO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
