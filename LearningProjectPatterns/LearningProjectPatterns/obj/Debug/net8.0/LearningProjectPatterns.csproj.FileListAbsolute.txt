@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\bin\Debug\net8.0\LearningProjectPatterns.exe
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\bin\Debug\net8.0\LearningProjectPatterns.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\bin\Debug\net8.0\LearningProjectPatterns.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\bin\Debug\net8.0\LearningProjectPatterns.dll
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\bin\Debug\net8.0\LearningProjectPatterns.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.dll
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\refint\LearningProjectPatterns.dll
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\LearningProjectPatterns.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\LearningProjectPatterns\obj\Debug\net8.0\ref\LearningProjectPatterns.dll

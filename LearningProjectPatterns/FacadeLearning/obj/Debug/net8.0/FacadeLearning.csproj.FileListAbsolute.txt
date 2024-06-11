@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\bin\Debug\net8.0\FacadeLearning.exe
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\bin\Debug\net8.0\FacadeLearning.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\bin\Debug\net8.0\FacadeLearning.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\bin\Debug\net8.0\FacadeLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\bin\Debug\net8.0\FacadeLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\refint\FacadeLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\FacadeLearning.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\FacadeLearning\obj\Debug\net8.0\ref\FacadeLearning.dll

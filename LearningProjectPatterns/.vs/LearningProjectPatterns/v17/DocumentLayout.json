@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\productb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\producta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\producta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\factoryb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\factoryb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\factorya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\factorya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\factorymethod\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A10499B-74D0-41BF-B195-C5224CC487A7}|FactoryMethod\\FactoryMethod.csproj|solutionrelative:factorymethod\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\obserwator\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|solutionrelative:obserwator\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\obserwator\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|solutionrelative:obserwator\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\obserwator\\concreteobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|solutionrelative:obserwator\\concreteobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\obserwator\\concretesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|solutionrelative:obserwator\\concretesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|c:\\users\\user\\desktop\\learningprojectpatterns\\obserwator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7EC13F-979D-416C-A4B1-2770C0F04B3B}|Obserwator\\Obserwator.csproj|solutionrelative:obserwator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FactoryB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\FactoryB.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\FactoryB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\FactoryB.cs",
+              "RelativeToolTip": "FactoryMethod\\FactoryB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:35:28.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\ProductB.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\ProductB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\ProductB.cs",
+              "RelativeToolTip": "FactoryMethod\\ProductB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:34:37.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductA.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\ProductA.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\ProductA.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\ProductA.cs",
+              "RelativeToolTip": "FactoryMethod\\ProductA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:33:10.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FactoryA.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\FactoryA.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\FactoryA.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\FactoryA.cs",
+              "RelativeToolTip": "FactoryMethod\\FactoryA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:31:36.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Product.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Product.cs",
+              "RelativeToolTip": "FactoryMethod\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:30:26.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Factory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Factory.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Factory.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Factory.cs",
+              "RelativeToolTip": "FactoryMethod\\Factory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:29:34.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Program.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\FactoryMethod\\Program.cs",
+              "RelativeToolTip": "FactoryMethod\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:28:48.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConcreteObserver.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ConcreteObserver.cs",
+              "RelativeDocumentMoniker": "Obserwator\\ConcreteObserver.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ConcreteObserver.cs",
+              "RelativeToolTip": "Obserwator\\ConcreteObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:40:50.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConcreteSubject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ConcreteSubject.cs",
+              "RelativeDocumentMoniker": "Obserwator\\ConcreteSubject.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ConcreteSubject.cs",
+              "RelativeToolTip": "Obserwator\\ConcreteSubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:36:19.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\IObserver.cs",
+              "RelativeDocumentMoniker": "Obserwator\\IObserver.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\IObserver.cs",
+              "RelativeToolTip": "Obserwator\\IObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:34:25.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISubject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ISubject.cs",
+              "RelativeDocumentMoniker": "Obserwator\\ISubject.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\ISubject.cs",
+              "RelativeToolTip": "Obserwator\\ISubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:33:55.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\Program.cs",
+              "RelativeDocumentMoniker": "Obserwator\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\LearningProjectPatterns\\Obserwator\\Program.cs",
+              "RelativeToolTip": "Obserwator\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T18:45:13.509Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

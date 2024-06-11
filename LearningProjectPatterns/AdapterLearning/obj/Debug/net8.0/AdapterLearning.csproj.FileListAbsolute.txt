@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\bin\Debug\net8.0\AdapterLearning.exe
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\bin\Debug\net8.0\AdapterLearning.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\bin\Debug\net8.0\AdapterLearning.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\bin\Debug\net8.0\AdapterLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\bin\Debug\net8.0\AdapterLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\refint\AdapterLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\AdapterLearning.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\AdapterLearning\obj\Debug\net8.0\ref\AdapterLearning.dll

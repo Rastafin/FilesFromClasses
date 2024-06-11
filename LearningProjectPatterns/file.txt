@@ -1,0 +1,679 @@
+/*
+
+________________SINGLETON________________
+
+
+
+public class Singleton
+{
+    private readonly static Lazy<Singleton> _instance = new Lazy<Singleton>(() => new Singleton());
+
+    public int X { get; set; } = 0;
+
+    public int Y { get; set; } = 0;
+
+    private Singleton()
+    {
+        Console.WriteLine("Creating Singleton Lazy instance");
+    }
+
+    public static Singleton Instance { get { return _instance.Value; } }
+
+    public int Sum() {  return X + Y; }
+
+}
+
+
+
+internal class Singleton2
+{
+    private static readonly Singleton2 _instance = new Singleton2();
+
+    public int X { get; set; } = 0;
+    public int Y { get; set; } = 0;
+
+    private Singleton2()
+    {
+        Console.WriteLine("Creating Singleton instance");
+    }
+
+    public static Singleton2 GetInstance() { return _instance; }
+
+    public int Sum()
+    {
+        return X + Y;
+    }
+}
+
+
+
+
+Program.cs
+
+var instance = Singleton.Instance;
+
+instance.X = 1;
+instance.Y = 2;
+
+var instance2 = Singleton.Instance;
+
+instance2.X = 3;
+instance2.Y = 4;
+
+Console.WriteLine(instance.Sum().ToString());
+Console.WriteLine(instance2.Sum().ToString());
+
+
+
+
+
+________________FACADE________________
+
+
+
+
+internal class Podsystem1
+{
+    public string Operacja1()
+    {
+        return "\nRozpoczecie operacji numer 1 w podsystemie numer 1";
+    }
+
+    public string Operacja2()
+    {
+        return "\nRozpoczecie operacji numer 2 w podsystemie numer 1";
+    }
+}
+
+
+
+internal class Podsystem2
+{
+    public string Operacja1()
+    {
+        return "\nRozpoczecie operacji numer 1 w podsystemie numer 2";
+    }
+
+    public string Operacja2()
+    {
+        return "\nRozpoczecie operacji numer 2 w podsystemie numer 2";
+    }
+}
+
+
+
+internal class Fasada
+{
+    private readonly Podsystem1 _podsystem1;
+    private readonly Podsystem2 _podsystem2;
+
+    public Fasada(Podsystem1 podsystem1, Podsystem2 podsystem2)
+    {
+        _podsystem1 = podsystem1;
+        _podsystem2 = podsystem2;
+    }
+
+    public string Operacja()
+    {
+        string wiadomosc = "Rozpoczecie operacji w podsystemie numer 1";
+        wiadomosc += _podsystem1.Operacja1();
+        wiadomosc += _podsystem1.Operacja2();
+        wiadomosc += "\nRozpoczecie operacji w podsystemie numer 2";
+        wiadomosc += _podsystem2.Operacja1();
+        wiadomosc += _podsystem2.Operacja2();
+        wiadomosc += "\nZakonczenie wszystkich operacji";
+        return wiadomosc;
+    }
+}
+
+
+
+internal class Klient
+{
+    public static void WywolajFasade(Fasada fasada)
+    {
+        Console.WriteLine(fasada.Operacja());
+    }
+}
+
+
+Program.cs
+
+
+Podsystem1 podsystem1 = new Podsystem1();
+Podsystem2 podsystem2 = new Podsystem2();
+Fasada fasada = new Fasada(podsystem1, podsystem2);
+
+Klient.WywolajFasade(fasada);
+
+
+
+________________ADAPTER________________
+
+
+internal interface IPayment
+{
+    void Pay(int amount);
+}
+
+
+internal class PayPalPayment : IPayment
+{
+    public void Pay(int amount)
+    {
+        Console.WriteLine($"\nPlatnosc Paypal: {amount}");
+    }
+}
+
+
+
+internal class StripePaymentAdaptee
+{
+    public void MakeStripePayment(int amount)
+    {
+        Console.WriteLine($"\nPlatnosc Stripe: {amount}");
+    }
+}
+
+
+
+
+internal class PaymentAdapter : IPayment
+{
+    private readonly StripePaymentAdaptee _stripePaymentAdaptee;
+
+    public PaymentAdapter(StripePaymentAdaptee stripePaymentAdaptee)
+    {
+        _stripePaymentAdaptee = stripePaymentAdaptee;
+    }
+
+    public void Pay(int amount)
+    {
+        _stripePaymentAdaptee.MakeStripePayment(amount);
+    }
+}
+
+Program.cs
+
+
+IPayment paypalPayment = new PayPalPayment();
+StripePaymentAdaptee stripePaymentAdaptee = new StripePaymentAdaptee();
+
+IPayment paymentAdapter = new PaymentAdapter(stripePaymentAdaptee);
+
+List<IPayment> paymentList = new List<IPayment>()
+{
+    paypalPayment,
+    paymentAdapter
+};
+
+paymentList.ForEach(payment => payment.Pay(15));
+
+
+
+
+________________KOMPOZYT________________
+
+
+
+
+internal abstract class Component
+{
+    public abstract string Operation();
+    public virtual void AddComponent(Component component)
+    {
+        Console.WriteLine("\nComponent cannot be added to leaf");
+    }
+
+    public virtual void RemoveComponent(Component component)
+    {
+        Console.WriteLine("\nComponent cannot be deleted from leaf");
+    }
+}
+
+
+internal class Composite : Component
+{
+    private List<Component> _childComponents = new List<Component>();
+    public override string Operation()
+    {
+        int i = 0;
+        string result = "Galaz(";
+
+        foreach(Component component in _childComponents)
+        {
+            result += component.Operation();
+
+            if(i < _childComponents.Count - 1)
+            {
+                result += " + ";
+            }
+
+            i++;
+        }
+
+        return result + ")";
+    }
+
+    public override void AddComponent(Component component)
+    {
+        _childComponents.Add(component);
+    }
+
+    public override void RemoveComponent(Component component)
+    {
+        _childComponents.Remove(component);
+    }
+}
+
+
+
+internal class Leaf : Component
+{
+    public override string Operation()
+    {
+        return "Lisc";
+    }
+}
+
+
+
+Program.cs
+
+
+
+Composite tree = new Composite();
+
+Composite composite1 = new Composite();
+Composite composite2 = new Composite();
+
+Leaf leaf1 = new Leaf();
+Leaf leaf2 = new Leaf();
+Leaf leaf3 = new Leaf();
+Leaf leaf4 = new Leaf();
+Leaf leaf5 = new Leaf();
+
+composite1.AddComponent(leaf1);
+composite1.AddComponent(leaf2);
+composite1.AddComponent(leaf3);
+
+composite2.AddComponent(leaf4);
+
+tree.AddComponent(composite1);
+tree.AddComponent(composite2);
+tree.AddComponent(leaf5);
+
+Console.WriteLine(tree.Operation());
+
+
+
+
+________________CHAIN_OF_RESPONSIBILITY________________
+
+
+
+
+internal interface IHandler
+{
+    IHandler SetNext(IHandler handler);
+    void HandleRequest(string request);
+}
+
+
+
+internal abstract class BaseHandler : IHandler
+{
+    private IHandler? _nextHandler;
+    public virtual void HandleRequest(string request)
+    {
+        if(_nextHandler != null)
+        {
+            _nextHandler.HandleRequest(request);
+        }
+        else
+        {
+            Console.WriteLine("Request cannot be handled");
+        }
+    }
+
+    public IHandler SetNext(IHandler handler)
+    {
+        _nextHandler = handler;
+        return handler;
+    }
+}
+
+
+
+
+internal class Manager : BaseHandler
+{
+    public override void HandleRequest(string request)
+    {
+        if(request == "Approve Budget")
+        {
+            Console.WriteLine("Manager handled request: " + request);
+        }
+        else
+        {
+            base.HandleRequest(request);
+        }
+    }
+}
+
+
+
+internal class Director : BaseHandler
+{
+    public override void HandleRequest(string request)
+    {
+        if (request == "Approve Project")
+        {
+            Console.WriteLine("Director handled request: " + request);
+        }
+        else
+        {
+            base.HandleRequest(request);
+        }
+    }
+}
+
+
+
+internal class CEO : BaseHandler
+{
+    public override void HandleRequest(string request)
+    {
+        if(request == "Approve Strategy")
+        {
+            Console.WriteLine("CEO handled request: " + request);
+        }
+        else
+        {
+            base.HandleRequest(request);
+        }
+    }
+}
+
+
+
+Program.cs
+
+
+Manager manager = new Manager();
+Director director = new Director();
+CEO ceo = new CEO();
+
+manager.SetNext(director).SetNext(ceo);
+
+Console.WriteLine("Sending request to approve budget");
+manager.HandleRequest("Approve Budget");
+
+Console.WriteLine("Sending request to approve project");
+manager.HandleRequest("Approve Project");
+
+Console.WriteLine("Sending request to approve strategy");
+manager.HandleRequest("Approve Strategy");
+
+Console.WriteLine("Sending unknown request");
+manager.HandleRequest("Unknown Request");
+
+
+
+________________DEKORATOR________________
+
+
+
+public interface IComponent
+{
+    string Operation();
+}
+
+
+internal class ConcreteComponent : IComponent
+{
+    public string Operation()
+    {
+        return "ConcreteComponent";
+    }
+}
+
+
+public abstract class Decorator : IComponent
+{
+    protected IComponent _component;
+    public Decorator(IComponent component)
+    {
+        _component = component;
+    }
+    public virtual string Operation()
+    {
+        if(_component != null)
+        {
+            return _component.Operation();
+        }
+        else
+        {
+            return string.Empty;
+        }
+    }
+}
+
+
+
+internal class BoldDecorator : Decorator
+{
+    public BoldDecorator(IComponent component) : base(component)
+    {
+    }
+
+    public override string Operation()
+    {
+        return "<b>" + base.Operation() + "<b>";
+    }
+}
+
+
+internal class ItalicDecorator : Decorator
+{
+    public ItalicDecorator(IComponent component) : base(component)
+    {
+    }
+
+    public override string Operation()
+    {
+        return "<i>" + base.Operation() + "<i>";
+    }
+}
+
+
+Program.cs
+
+
+IComponent simpleText = new ConcreteComponent();
+
+IComponent boldText = new BoldDecorator(simpleText);
+IComponent italicText = new ItalicDecorator(simpleText);
+
+IComponent boldItalicText = new BoldDecorator(new ItalicDecorator(simpleText));
+
+Console.WriteLine("Original: " + simpleText.Operation());
+Console.WriteLine("Bold: " + boldText.Operation());
+Console.WriteLine("Italic: " + italicText.Operation());
+Console.WriteLine("Bold & Italic: " + boldItalicText.Operation());
+
+
+
+________________OBSERWATOR________________
+
+
+
+public interface IObserver
+{
+    void Update(ISubject subject);
+}
+
+
+public interface ISubject
+{
+    void Attach(IObserver observer);
+    void Detach(IObserver observer);
+    void Notify();
+}
+
+
+
+internal class ConcreteObserver : IObserver
+{
+    private string _name;
+
+    public ConcreteObserver(string name)
+    {
+        _name = name;
+    }
+    public void Update(ISubject subject)
+    {
+        if(subject is ConcreteSubject concreteSubject)
+        {
+            Console.WriteLine($"{_name} has received an update! New state: {concreteSubject.State}");
+        }
+    }
+}
+
+
+
+internal class ConcreteSubject : ISubject
+{
+    private int _state;
+    private List<IObserver> _observers = new List<IObserver>(); 
+
+    public int State
+    {
+        get
+        {
+            return _state;
+        }
+        set
+        {
+            _state = value;
+            Notify();
+        }
+    }
+    public void Attach(IObserver observer)
+    {
+        _observers.Add(observer);
+    }
+
+    public void Detach(IObserver observer)
+    {
+        _observers.Remove(observer);
+    }
+
+    public void Notify()
+    {
+        foreach(var observer in _observers)
+        {
+            observer.Update(this);
+        }
+    }
+}
+
+
+Program.cs
+
+
+
+var subject = new ConcreteSubject();
+
+var observer1 = new ConcreteObserver("Observer 1");
+var observer2 = new ConcreteObserver("Observer 2");
+var observer3 = new ConcreteObserver("Observer 3");
+
+subject.Attach(observer1);
+subject.Attach(observer2);
+subject.Attach(observer3);
+
+subject.State = 1;
+
+subject.Detach(observer3);
+
+subject.State = 2;
+
+
+
+
+________________FACTORY_METHOD________________
+
+
+internal abstract class Factory
+{
+    public abstract Product CreateProduct();
+}
+
+
+
+internal class FactoryA : Factory
+{
+    public override Product CreateProduct()
+    {
+        Console.WriteLine("Rozpoczecie tworzenia produktu A");
+        return new ProductA();
+    }
+}
+
+
+
+
+internal class FactoryB : Factory
+{
+    public override Product CreateProduct()
+    {
+        Console.WriteLine("Rozpoczecie tworzenia produktu B");
+        return new ProductB();
+    }
+}
+
+
+
+internal abstract class Product
+{
+    public abstract string Print();
+}
+
+
+
+internal class ProductA : Product
+{
+    public override string Print()
+    {
+        return "Produkt: " + this.GetType();
+    }
+}
+
+
+
+
+internal class ProductB : Product
+{
+    public override string Print()
+    {
+        return $"Produkt: " + this.GetType();
+    }
+}
+
+
+Program.cs
+
+
+Factory factoryA = new FactoryA();
+Factory factoryB = new FactoryB();
+
+List<Factory> factories = new List<Factory>();
+factories.Add(factoryA);
+factories.Add(factoryB);
+
+factories.ForEach(f => Console.WriteLine(f.CreateProduct().Print()));
+
+
+
+*/

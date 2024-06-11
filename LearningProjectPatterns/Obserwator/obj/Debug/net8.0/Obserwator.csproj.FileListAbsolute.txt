@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\bin\Debug\net8.0\Obserwator.exe
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\bin\Debug\net8.0\Obserwator.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\bin\Debug\net8.0\Obserwator.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\bin\Debug\net8.0\Obserwator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\bin\Debug\net8.0\Obserwator.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\refint\Obserwator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\Obserwator.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Obserwator\obj\Debug\net8.0\ref\Obserwator.dll

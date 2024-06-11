@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\bin\Debug\net8.0\Dekorator.exe
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\bin\Debug\net8.0\Dekorator.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\bin\Debug\net8.0\Dekorator.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\bin\Debug\net8.0\Dekorator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\bin\Debug\net8.0\Dekorator.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\refint\Dekorator.dll
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\Dekorator.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\Dekorator\obj\Debug\net8.0\ref\Dekorator.dll

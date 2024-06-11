@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\bin\Debug\net8.0\SingletonLearning.exe
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\bin\Debug\net8.0\SingletonLearning.deps.json
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\bin\Debug\net8.0\SingletonLearning.runtimeconfig.json
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\bin\Debug\net8.0\SingletonLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\bin\Debug\net8.0\SingletonLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.AssemblyInfo.cs
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\refint\SingletonLearning.dll
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.pdb
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\SingletonLearning.genruntimeconfig.cache
+C:\Users\User\Desktop\LearningProjectPatterns\SingletonLearning\obj\Debug\net8.0\ref\SingletonLearning.dll
