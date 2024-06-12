@@ -675,5 +675,480 @@ factories.Add(factoryB);
 factories.ForEach(f => Console.WriteLine(f.CreateProduct().Print()));
 
 
+________________ABSTRACT_FACTORY________________
+
+
+public interface IButton
+{
+    void Paint();
+}
+
+
+public interface ICheckbox
+{
+    void Paint();
+}
+
+
+public interface IGUIFactory
+{
+    IButton CreateButton();
+    ICheckbox CreateCheckbox();
+}
+
+
+
+internal class MacOSButton : IButton
+{
+    public void Paint()
+    {
+        Console.WriteLine("Rendering a button in MacOS style");
+    }
+}
+
+
+internal class MacOSCheckbox : ICheckbox
+{
+    public void Paint()
+    {
+        Console.WriteLine("Rendering a checkbox in MacOS style");
+    }
+}
+
+
+internal class MacOSFactory : IGUIFactory
+{
+    public IButton CreateButton()
+    {
+        return new MacOSButton();
+    }
+
+    public ICheckbox CreateCheckbox()
+    {
+        return new MacOSCheckbox();
+    }
+}
+
+
+internal class WindowsButton : IButton
+{
+    public void Paint()
+    {
+        Console.WriteLine("Rendering a button in Windows style");
+    }
+}
+
+
+internal class WindowsCheckbox : ICheckbox
+{
+    public void Paint()
+    {
+        Console.WriteLine("Rendering a checkbox in Windows style");
+    }
+}
+
+
+internal class WindowsFactory : IGUIFactory
+{
+    public IButton CreateButton()
+    {
+        return new WindowsButton();
+    }
+
+    public ICheckbox CreateCheckbox()
+    {
+        return new WindowsCheckbox();
+    }
+}
+
+
+public class Application
+{
+    private IButton _button;
+    private ICheckbox _checkbox;
+
+    public Application(IGUIFactory factory)
+    {
+        _button = factory.CreateButton();
+        _checkbox = factory.CreateCheckbox();
+    }
+
+    public void Paint()
+    {
+        _button.Paint();
+        _checkbox.Paint();
+    }
+}
+
+
+Program.cs
+
+
+IGUIFactory factory1;
+IGUIFactory factory2;
+
+factory1 = new WindowsFactory();
+factory2 = new MacOSFactory();
+
+List<IGUIFactory> factories = new List<IGUIFactory>(){factory1, factory2};
+
+factories.ForEach(f => new Application(f).Paint());
+
+
+
+________________MVC________________
+
+Controllers
+
+public class ArticleController
+{
+    public void DisplayArticles()
+    {
+        var model = new Models.Articles();
+
+        model.List.Add(
+                new Models.Article { 
+                    Title = "First Title",
+                    Author = "Author 1",
+                    Content = @"First Content",
+                    Year = 2020
+                }
+            );
+
+        model.List.Add(
+                new Models.Article
+                {
+                    Title = "Second Title",
+                    Author = "Author 2",
+                    Content = @"Second content",
+                    Year = 2019
+                }
+            );
+
+        model.List.Add(
+                new Models.Article
+                {
+                    Title = "Third Title",
+                    Author = "Author 3",
+                    Content = @"Third content",
+                    Year = 2020
+                }
+            );
+
+        model.List[0].Content.ToUpper();
+
+        new Views.ArticlesComplexView().Display(model);
+    }
+}
+
+
+Models
+
+public class Article : IModel
+{
+    public int ModelID { get {return 1;} }
+
+    public string Title { get; set; }
+
+    public string Content { get; set; }
+
+    public string Author { get; set; }
+
+    public int Year { get; set; }
+
+    
+}
+
+
+
+public class Articles : IModel
+{
+    public int ModelID { get { return 2; } }
+
+    public string Category { get; set; }
+
+    public List<Models.Article> List { get; set; }
+
+    public Articles()
+    {
+        List = new List<Article>();
+    }
+}
+
+
+
+
+interface IModel
+{
+    int ModelID {get;}
+}
+
+
+Views
+
+
+
+class ArticlesComplexView: IView
+{
+    public void Display(IModel model)
+    {
+        if (model.GetType() == typeof(Articles))
+        {
+            var articles = (Articles)model;
+
+            articles.List.ForEach((article) =>
+                {
+                    Console.WriteLine("{0}{1}{0}", new string('*', 3), article.Title);
+                    Console.WriteLine("Author: {0}",  article.Author);
+                    Console.WriteLine("Content: {0}", article.Content);
+                    Console.WriteLine("Year: {0}", article.Year);
+                    Console.WriteLine();
+                }
+            );
+
+        }
+    }
+}
+
+
+
+class ArticlesSimpleView : IView
+{
+    public void Display(IModel model)
+    {
+        if (model.GetType() == typeof(Articles)) {
+
+            var articles = (Articles)model;
+
+            articles.List.ForEach((article) =>
+                    {
+                        Console.WriteLine("{0}{1} ({2})", article.Author, article.Title, article.Year);
+                    }
+                );
+
+        }
+    }
+}
+
+
+
+
+interface IView
+{
+    void Display(Models.IModel model);
+}
+
+
+
+
+Program.cs
+
+
+
+new Controllers.ArticleController().DisplayArticles();
+
+Console.ReadKey();
+
+
+
+
+*** DRUGA Wersja
+
+
+
+
+________________DEPENDENCY_INJECTION________________
+
+
+
+Repositories
+
+
+internal interface IRepository
+{
+    void Upload(string content);
+
+    void Remove(string content);
+
+    List<string> GetContentList(); 
+}
+
+
+
+internal class NetworkRepository : IRepository
+{
+    private readonly List<string> _contentList = [];
+
+    public void Upload(string content)
+    {
+        _contentList.Add(content);
+
+        Console.WriteLine("Dodano treść do repozytorium sieciowego");
+    }
+
+    public void Remove(string content)
+    {
+        _contentList.Remove(content);
+
+        Console.WriteLine("Usunięto treść z repozytorium sieciowego");
+    }
+
+    public List<string> GetContentList()
+    {
+        Console.WriteLine("Pobrano z repozytorium sieciowego");
+
+        return _contentList;
+    }
+}
+
+
+internal class TextRepository : IRepository
+{
+    private readonly List<string> _contentList = [];
+
+    public void Upload(string content)
+    {
+        _contentList.Add(content);
+
+        Console.WriteLine("Dodano treść do repozytorium txt");
+    }
+
+    public void Remove(string content)
+    {
+        _contentList.Remove(content);
+
+        Console.WriteLine("Usunięto treść z repozytorium txt");
+    }
+
+    public List<string> GetContentList()
+    {
+        Console.WriteLine("Pobrano z repozytorium txt");
+
+        return _contentList;
+    }
+}
+
+
+
+To poza folderem Repositories
+
+
+
+
+
+internal class Document
+{
+    public string Title { get; set; } = null!;
+
+    public string Content { get; set; } = null!;
+}
+
+
+
+internal class DocumentService
+{
+    private readonly IRepository _repository;
+
+    public void AddDocumentToRepository(Document document){
+
+        _repository.Upload(document.Content);
+    }
+
+    public void RemoveDocumentFromRepository(Document document) {
+
+        _repository.Remove(document.Content);
+    }
+
+    public void PrintDocumentsInRepository(){
+        _repository.GetContentList().ForEach(Console.WriteLine);
+    }
+
+    public DocumentService(IRepository repository)
+    {
+        ArgumentNullException.ThrowIfNull(repository);
+
+        _repository = repository;
+    }
+}
+
+
+
+internal class DocumentServiceM
+{
+    public void AddDocumentToRepository(IRepository repository, Document document){
+
+        repository?.Upload(document.Content);
+    }
+
+    public void RemoveDocumentFromRepository(IRepository repository, Document document) {
+
+        repository?.Remove(document.Content);
+    }
+
+    public void PrintDocumentsInRepository(IRepository repository)
+    {
+        repository?.GetContentList().ForEach(Console.WriteLine);
+    }
+
+}
+
+
+
+internal class DocumentServiceP
+{
+    public IRepository Repository { get; set; } = null!;
+
+    public void AddDocumentToRepository(Document document){
+
+        Repository?.Upload(document.Content);
+    }
+
+    public void RemoveDocumentFromRepository(Document document) {
+
+        Repository?.Remove(document.Content);
+    }
+
+    public void PrintDocumentsInRepository()
+    {
+        Repository?.GetContentList().ForEach(Console.WriteLine);
+    }
+
+}
+
+
+
+Program.cs
+
+
+var document = new Document { 
+    Title = "Dokument WP 1",
+    Content =  "Dependency Injection"
+};
+
+new DocumentService(new TextRepository()).AddDocumentToRepository(document);
+
+var service = new DocumentService(new NetworkRepository());
+
+service.AddDocumentToRepository(document);
+service.RemoveDocumentFromRepository(document);
+service.PrintDocumentsInRepository();
+
+var serviceM = new DocumentServiceM();
+
+serviceM.AddDocumentToRepository(new TextRepository(), document);
+serviceM.AddDocumentToRepository(new NetworkRepository(), document);
+
+var serviceP = new DocumentServiceP();
+
+serviceP.Repository = new TextRepository();
+
+serviceP.AddDocumentToRepository(document);
+serviceP.RemoveDocumentFromRepository(document);
+
+serviceP.Repository = new NetworkRepository();
+
+serviceP.PrintDocumentsInRepository();
+
+serviceP.PrintDocumentsInRepository();
 
 */
